@@ -1,0 +1,109 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    float: right;
+    color: white;
+    margin-top: -60px;
+    
+}
+header a,header span,header i{
+    margin-right: 20px;
+}
+header a{
+    text-decoration: none;
+    color: white;
+
+}
+header span{
+    background-color: rgb(255, 0, 191);
+    padding:8px 10px;
+    border-radius: 50%;
+
+}
+header a:hover{
+    text-decoration: underline;
+    text-decoration-color: chartreuse;
+}
+.google{
+    font-size: 100px;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    
+    
+}
+.input1{
+    width: 550px;
+    height: 40px;
+    border-radius: 25px;
+    border: 1px solid #b6c2c2;
+    
+    
+}
+.input1::placeholder{
+    padding-left: 50px;
+
+    
+    
+    
+}
+.input2{
+    width: 130px;
+    height: 35px;
+    background-color: rgb(54, 48, 48);
+    color: white;
+    border: 1px solid black;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.search{
+    text-align: center;
+    margin-top: -70px;
+    position: relative;
+    
+   
+    
+}
+.fa-microphone{
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 248px;
+    font-size: 20px;
+}
+.buttons{
+    margin-left:41% ;
+    margin-top: 30px;
+    
+}
+.fa-magnifying-glass{
+    position: absolute;
+    margin-left: 10px;
+    font-size: 18px;
+    margin-top: 13px;
+
+}
+footer{
+    width: 100%;
+    height: 73px;
+    color: white;
+    margin-top: 275px;
+    background-color: #0f0f0f;
+    
+}
+footer ul{
+    list-style-type: none;
+    display: flex;
+    padding: 10px;
+}
+footer ul li{
+    padding: 10px;
+    margin-top: 4px;
+    color: #b7cced;
+    font-size: 16px;
+    cursor: pointer;
+}
