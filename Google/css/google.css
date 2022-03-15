@@ -1,13 +1,15 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
 body{
     padding: 0;
     margin: 0;
 }
 
 header{
-    float: right;
     color: white;
-    margin-top: -60px;
-    
+    margin-top: 18px;
+    margin-left: 1296px;
 }
 header a,header span,header i{
     margin-right: 20px;
@@ -15,13 +17,11 @@ header a,header span,header i{
 header a{
     text-decoration: none;
     color: white;
-
 }
 header span{
     background-color: rgb(255, 0, 191);
     padding:8px 10px;
     border-radius: 50%;
-
 }
 header a:hover{
     text-decoration: underline;
@@ -32,23 +32,15 @@ header a:hover{
     text-align: center;
     margin-top: 20px;
     font-weight: bold;
-    
-    
 }
 .input1{
     width: 550px;
     height: 40px;
     border-radius: 25px;
     border: 1px solid #b6c2c2;
-    
-    
 }
 .input1::placeholder{
     padding-left: 50px;
-
-    
-    
-    
 }
 .input2{
     width: 130px;
@@ -56,6 +48,7 @@ header a:hover{
     background-color: rgb(54, 48, 48);
     color: white;
     border: 1px solid black;
+    border-radius:6px;
 }
 body{
     margin: 0;
@@ -65,9 +58,6 @@ body{
     text-align: center;
     margin-top: -70px;
     position: relative;
-    
-   
-    
 }
 .fa-microphone{
     position: absolute;
@@ -89,11 +79,10 @@ body{
 }
 footer{
     width: 100%;
-    height: 73px;
+    height: 61px;
     color: white;
-    margin-top: 275px;
+    margin-top: 270px;
     background-color: #0f0f0f;
-    
 }
 footer ul{
     list-style-type: none;
@@ -106,4 +95,11 @@ footer ul li{
     color: #b7cced;
     font-size: 16px;
     cursor: pointer;
+}
+footer ul li:hover{
+    text-decoration: underline;
+    text-decoration-color: chartreuse;
+}  
+.img{
+    width: 380px;
 }
