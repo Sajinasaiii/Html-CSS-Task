@@ -1,0 +1,45 @@
+body{
+	margin:0;
+        padding:0;
+}
+#img{
+	position: absolute;
+	width: 140px;
+	height: 80px;
+	padding-left: 50px;
+	top: -25px;
+}
+.fa-bars{
+	position: absolute;
+	font-size: 20px;
+	top: 20px;
+        padding-left: 30px;
+}
+.gmail{
+	margin-top: 65px;
+        border-bottom: 1px solid #717682;
+	
+}
+.buttoncomp{
+	border: 1px solid black;
+}
+#compimg{
+       
+	width: 35px;
+        padding: 10px;
+	margin-top: -6px;
+        
+}
+.compose{
+        border:1px solid #504a5c;
+	border-radius: 45px;
+	margin-top: 16px;
+	margin-left: 8px;
+        width: 150px;
+        height: 50px;
+}
+.com{
+	margin-left: 60px;
+	font-size: 19px;
+        margin-top: -47px;
+}	
