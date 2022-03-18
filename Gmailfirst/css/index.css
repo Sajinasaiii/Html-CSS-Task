@@ -2,46 +2,109 @@
 	padding:0;
 	margin:0;
 }
+.header{
+	border-bottom: 1px solid grey;
+}
 .menu{
-	width:5%;
+	width:3%;
+	margin-left: 20px;
+	margin-top: 10px;
 	float:left;
-	border:1px solid black;
-	
+	border: 1px solid;
+	font-size: 20px;
 }
 .image{
 	width:10%;
 	float:left;
-	border:1px solid black;
-	margin-bottom: 20px;
-	
+	border: 1px solid;
+	margin-top: 5px;
 }
 .search{
-	width:59%;
+	width:55%;
 	float:left;
-	border:1px solid black;
+	
 	font-size: 18px;
-	padding-left: 10px;
+	margin-left: 30px;
+	margin-top: 5px;
+}
+.searchbar{
+	border:none;
+	width: 500px;
+	height: 20px;
+	margin-left:10px;
+	margin-top: 10px;
+	
+}
+.fa-magnifying-glass{
+	margin-left: 15px;
+	margin-top: 12px;
+}
+.new1{
+	float: left;
+}
+.new2{
+	float: left;
+}
+.new3{
+	float: left;
+}
+.new4{
+	clear:both;
+}
+.search-new{
+	width: 650px;
+	border:2px solid grey;
+	border-radius: 6px;
+	
+	
+}
+.fa-sliders{
+	padding-left: 270px;
+	margin-top: 5px;
+}
+.comp{
+	border-radius: 25px;
+	margin-top: 10px;
+	width: 110px;
+	height: 40px;
+}
+.fa-sliders{
+	padding-left: 620px;
+	margin-top: 2px;
+	
+}
+.left-new{
+	margin-left: 15px;
+	margin-top: 10px;
+	border-bottom: 1px solid;
 }
 .support{
 	width:5%;
 	float:left;
-	border:1px solid black;
+	border: 1px solid;
 }
 .settings{
 	width:5%;
 	float:left;
-	border:1px solid black;
+	border: 1px solid;
 }
 .apps{
 	width:5%;
 	float:left;
-	border:1px solid black;
+	border: 1px solid;
 }
 .profile{
-	width:9%;
+	width:5%;
 	float:left;
-	border:1px solid black;
+	padding-left: 100px;
+	border: 1px solid;
 }
 .clear{
 	clear:both;
+}
+.left-bottom{
+	margin-left: 15px;
+}
+.left-bottomnew{
+	margin-left: 15px;
 }
