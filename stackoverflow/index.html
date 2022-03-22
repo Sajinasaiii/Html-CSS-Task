@@ -1,114 +1,440 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stack Overflow</title>
-    <link href="css/index.css" type="text/css" rel="stylesheet">
-    <script src="javascript/js.js"></script>
-</head>
-<body>
-	<div class="header">
-		<div class="stack">
-			<img src="image/logo2.png" alt="stackpage" class="imgstack">
-		</div>
-		<div class="about">About
-		</div>
-		<div class="products">Products
-		</div>
-		<div class="teams">For Teams
-		</div>
-		<div class="search">
-		     <div class="searchicon">
-			<form>
-				<div class="glass">
-					<i class="fa-solid fa-magnifying-glass"></i>
-						<input type="text" class="searchbar" placeholder="user:217408">
-				</div>
-			</form>
-		     </div>
-		</div>
-		<div class="login">
-			<button class="log">
-				<span class="Logbutton">Log in</span>
-			</button>
-		</div>
-		<div class="signup">
-			<button class="sign">
-				<span class="Signbutton">Sign up</span>
-			</button>
-		</div>
-		<div class="clear">
-		</div>
-	</div>
-		<div class="main">
-			<div class="left">
-				<div class="home">Home
-				</div>
-				<div class="public">PUBLIC
-				</div>
-				<div class="question"><i class="fa-solid fa-earth-americas"></i>&nbsp;Questions
-				</div>
-				<div class="tags">Tags
-				</div>
-				<div class="users">Users
-				</div>
-				<div class="collectives">COLLECTIVES<i class="fa-solid fa-circle-exclamation"></i>
-				</div>
-				<div class="explore"><i class="fa-solid fa-sun"></i>&nbsp;Explore Collectives
-				</div>
-				<div class="job">FIND A JOB
-				</div>
-				<div class="jobs">Jobs
-				</div>
-				<div class="company">Companies
-				</div>
-				<div class="teams1">TEAMS
-				</div>
-				<div class="clear1">
-				</div>
-			</div>
-			<div class="right">
-				<div class="man-img">
-					<img src="image/mann.jpg" alt="manimage" class="imagenew">
-						<div class="details">
-							<div class="name">Günter Zöchbauer
-							</div>
-							<div class="education">BSc.
-							</div>
-							<div class="member"><i class="fa-solid fa-cake-candles"></i>&nbsp;Member for 12 years, 
-							</div>
-							<div class="twiter"><i class="fa-brands fa-twitter"></i>&nbsp;
-							</div>
-							<div class="git"><i class="fa-brands fa-github"></i>&nbsp;
-							</div>
-							<div class="location"><i class="fa-solid fa-location-dot"></i>&nbsp;Linz, Austria
-							</div>
-				                </div>
-						        
-				</div>
-				
-			</div>
-			<div class="clear2">
-			</div>
-			<div class="left1">
-				<div class="left-new">
-					<button class="profile">
-						<span class="profile2">Profile</span>
-					</button>
-				</div>
-				<div class="left-right">
-					<span class="activity">Activity</span>
-				</div>
-			</div>
-		</div>
-	
-	
-
-		
-
-
-
-</body>
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Stack Overflow</title>
+      <link href="css/index.css" type="text/css" rel="stylesheet">
+      <script src="javascript/js.js"></script>
+   </head>
+   <body>
+      <div class="header">
+         <div class="stack">
+            <img src="image/logo2.png" alt="stackpage" class="imgstack">
+         </div>
+         <div class="about">About
+         </div>
+         <div class="products">
+            Products
+         </div>
+         <div class="teams">
+            For Teams
+         </div>
+         <div class="search">
+            <div class="searchicon">
+               <form>
+                  <div class="glass">
+                     <i class="fa-solid fa-magnifying-glass"></i>
+                     <input type="text" class="searchbar" placeholder="user:217408">
+                  </div>
+               </form>
+            </div>
+         </div>
+         <div class="login">
+            <button class="log">
+            <span class="Logbutton">	
+            Log in
+            </span>
+            </button>
+         </div>
+         <div class="signup">
+            <button class="sign">
+            <span class="Signbutton">
+            Sign up
+            </span>
+            </button>
+         </div>
+         <div class="clear">
+         </div>
+      </div>
+      <div class="main">
+      <div class="left">
+         <div class="home">
+            Home
+         </div>
+         <div class="public">
+            PUBLIC
+         </div>
+         <div class="question"><i class="fa-solid fa-earth-americas"></i>&nbsp;
+            Questions
+         </div>
+         <div class="tags">
+            Tags
+         </div>
+         <div class="users">
+            Users
+         </div>
+         <div class="collectives">COLLECTIVES<i class="fa-solid fa-circle-exclamation"></i>
+         </div>
+         <div class="explore"><i class="fa-solid fa-sun"></i>&nbsp;
+            Explore Collectives
+         </div>
+         <div class="job">
+            FIND A JOB
+         </div>
+         <div class="jobs">
+            Jobs
+         </div>
+         <div class="company">
+            Companies
+         </div>
+         <div class="teams1">
+            TEAMS
+         </div>
+         <div class="clear1">
+         </div>
+         <div class="content">
+            <span class="bold">Stack Overflow for Teams</span> – Collaborate and share knowledge with a private group
+            <img src="image/promonew1.png" alt="picture" class="picture">
+            <div class="free">
+               <button class="freeone">
+               <span class="freetwo">Create a free Team</span>
+               </button>
+            </div>
+            <div class="below-team">What is Teams?
+            </div>
+         </div>
+      </div>
+      <div class="right">
+         <div class="man-img">
+            <img src="image/mann.jpg" alt="manimage" class="imagenew">
+         </div>
+         <div class="details">
+            <div class="name">
+               Günter Zöchbauer
+            </div>
+            <div class="education">
+               BSc.
+            </div>
+            <div class="member"><i class="fa-solid fa-cake-candles"></i>&nbsp;
+               Member for 12 years, 
+            </div>
+            <div class="twiter"><i class="fa-brands fa-twitter"></i>&nbsp;
+            </div>
+            <div class="git"><i class="fa-brands fa-github"></i>&nbsp;
+            </div>
+            <div class="location"><i class="fa-solid fa-location-dot"></i>&nbsp;
+               Linz, Austria
+            </div>
+         </div>
+         <div class="buttonprofile">
+            <button class="arrowprofile">
+            <span class="profileright">Profiles</span>
+            <i class="fa-solid fa-caret-down"></i>
+            </button>
+         </div>
+         <div class="clear4">
+         </div>
+      </div>
+      <div class="left1">
+      <div class="left-new">
+         <button class="profile">
+         <span class="profile2">
+         Profile
+         </span>
+         </button>
+         <span class="activity">
+         Activity
+         </span>
+      </div>
+      <div class="clear3">
+         </div
+      </div>
+      <div class="clear2">
+      </div>
+      <div class="totaltotal">
+         <h3>Stats</h3>
+         <div class="total">
+            <div class="totalleft">
+               <div class="stats">
+                  545,342
+               </div>
+               <div class="reputation">
+                  reputation
+               </div>
+               <div class="number">
+                  9,317
+               </div>
+               <div class="answers">
+                  answers
+               </div>
+            </div>
+            <div class="totalright">
+               <div class="newnumber">
+                  74.8m
+               </div>
+               <div class="reached">
+                  reached
+               </div>
+               <div class="nine">
+                  93
+               </div>
+               <div class="questionsnew">
+                  questions
+               </div>
+            </div>
+            <div class="clear4">
+            </div>
+            <i class="fa-solid fa-trophy"></i>
+            <div class="cup">top <span class="numbold">0.01%</span> 
+               this quarter
+            </div>
+            <div clear="clear5">
+            </div>
+         </div>
+         <div class="communitynew">
+            <span>Communities</span>
+            <span class="viewall">
+            View all
+            </span>
+         </div>
+         <div class="Communitiesall">
+            <div class="Communitiesall-left">
+               <div class="stackstack">
+                  <img src="image/smallimage.png" alt="small" class="smallimg">
+                  Stack overflow
+               </div>
+               <div class="super">
+                  <img src="image/smallimage.png" alt="small" class="smallimg">
+                  Super User
+               </div>
+               <div class="meta">
+                  <img src="image/smallimage.png" alt="small" class="smallimg">
+                  Meta Stack Exchange
+               </div>
+               <div class="Area">
+                  <img src="image/smallimage.png" alt="small" class="smallimg">
+                  Area 51
+               </div>
+               <div class="finance">
+                  <img src="image/smallimage.png" alt="small" class="smallimg">
+                  Personal Finance & Money
+               </div>
+            </div>
+            <div class="Communitiesall-right">
+               <div class="fivty">
+                  545.8k
+               </div>
+               <div class="six">
+                  692
+               </div>
+               <div class="one">
+                  151
+               </div>
+               <div class="onefour">
+                  143
+               </div>
+               <div class="onefour">
+                  103
+               </div>
+            </div>
+         </div>
+         <div class="clearpath">
+         </div>
+      </div>
+      <div class="abouttotal">
+      <div class=about">
+         About
+      </div>
+      <div class="google">
+         Google+ Profil: https://twitter.com/gzoechi
+      </div>
+      <ul>
+         <li>I'm an enthusiastic and experienced</li>
+         <ul>
+            <li>I'm an enthusiastic and experienced</li>
+            <li>software engineer</li>
+            <li>sortware architect</li>
+            <li>developer</li>
+            <li>consultant</li>
+            <li>looking for clients/projects</li>
+            <ul>
+               <li>I focus on custom line of business applications with Dart, Flutter, Angular (mobile, browser, server)</li>
+            </ul>
+         </ul>
+      </ul>
+      <div class="badges">
+         Badges
+         <div class="badges1">
+            <i class="fa-regular fa-badge-sheriff"></i>
+            <span>
+            185</span>
+            <span><br>
+            gold badges</span>
+            <div class="newbutton">
+               <button class="angular">
+               <span class="ang2">angular2-routing</span>
+               </button>
+               <span class="june">
+               Jun 7, 2017
+               </span>
+            </div>
+            <div class="newbutton">
+               <button class="angular">
+               <span class="ang2">angular2-routing</span>
+               </button>
+               <span class="june">
+               Jun 7, 2017
+               </span>
+            </div>
+            <div class="newbutton">
+               <button class="angular">
+               <span class="ang2">angular2-routing</span>
+               </button>
+               <span class="june">
+               Jun 7, 2017
+               </span>
+            </div>
+         </div>
+         <div class="badges2">
+            <i class="fa-regular fa-badge-sheriff"></i>
+            <span>
+            1877</span>
+            <span><br>
+            silver badges</span>
+            <div class="newbutton1">
+               <button class="dart">
+               <span class="ang2">dart-polymer</span>
+               </button>
+               <span class="june">
+               July 7, 2017
+               </span>
+            </div>
+            <div class="newbutton1">
+               <button class="dart">
+               <span class="ang2">dart-polymer</span>
+               </button>
+               <span class="june">
+               July 7, 2017
+               </span>
+            </div>
+            <div class="newbutton1">
+               <button class="dart">
+               <span class="ang2">dart-polymer</span>
+               </button>
+               <span class="june">
+               July 7, 2017
+               </span>
+            </div>
+         </div>
+         <div class="badges3">
+            <i class="fa-regular fa-badge-sheriff"></i>
+            <span>
+            1467</span>
+            <span><br>
+            bronze badges</span>
+            <div class="newbutton2">
+               <button class="pipe">
+               <span class="ang2">angular2-pipe</span>
+               </button>
+               <span class="june">
+               apr 7, 2017
+               </span>
+            </div>
+            <div class="newbutton2">
+               <button class="pipe">
+               <span class="ang2">angular2-pipe</span>
+               </button>
+               <span class="june">
+               Jun 7, 2017
+               </span>
+            </div>
+            <div class="newbutton2">
+               <button class="pipe">
+               <span class="ang2">angular2-pipe</span>
+               </button>
+               <span class="june">
+               sep 7, 2017
+               </span>
+            </div>
+         </div>
+      </div>
+      <div class="clear0">
+      </div>
+      <span class="Top">Top tags</span>
+      <div class="toptag">
+      <div class="newbutton3">
+      <button class="pipe">
+      <span class="ang2">angular2-pipe</span>
+      </button>
+      <span class="numberall5">
+      58,934score
+      </span>
+      <span class="numberall6">
+      58,934score
+      </span>
+      <span class="numberall7">
+      58,934score
+      </span>
+      <div class="newbutton3">
+      <button class="pipe">
+      <span class="ang2">angular2-pipe</span>
+      </button>
+      <span class="numberall">
+      58,934score
+      </span>
+      <span class="numberall">
+      58,934score
+      </span>
+      <span class="numberall">
+      58,934score
+      </span>
+      <div class="newbutton3">
+         <button class="pipe">
+         <span class="ang2">angular2-pipe</span>
+         </button>
+         <span class="numberall">
+         58,934score
+         </span>
+         <span class="numberall">
+         58,934score
+         </span>
+         <span class="numberall">
+         58,934score
+         </span>
+         <div class="newbutton3">
+            <button class="pipe">
+            <span class="ang2">angular2-pipe</span>
+            </button>
+            <span class="numberall">
+            58,934score
+            </span>
+            <span class="numberall1">
+            58,934score
+            </span>
+            <span class="numberall2">
+            58,934score
+            </span>
+            <div class="newbutton3">
+               <button class="pipe">
+               <span class="ang2">angular2-pipe</span>
+               </button>
+               <span class="numberall">
+               58,934score
+               </span>
+               <span class="numberall1">
+               58,934score
+               </span>
+               <span class="numberall2">
+               58,934score
+               </span>
+               <div class="newbutton3">
+                  <button class="pipe">
+                  <span class="ang2">angular2-pipe</span>
+                  </button>
+                  <span class="numberall">
+                  58,934score
+                  </span>
+                  <span class="numberall1">
+                  58,934score
+                  </span>
+                  <span class="numberall2">
+                  58,934score
+                  </span>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
 </html>
