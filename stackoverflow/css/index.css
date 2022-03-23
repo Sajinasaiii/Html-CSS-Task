@@ -1,0 +1,432 @@
+body{
+	padding:0;
+	margin:0;
+	background-image: url("image/logo2.png");
+	font-family : -apple-system, BlinkMacSystemFont, "Segoe UI", "Liberation Sans", sans-serif;
+	color: grey;
+}
+.header{
+	border-bottom: 1px solid blue;
+	height: 50px;
+	background-color: #f0f3f5;
+	border-top: 3px solid orange;
+}
+.imgstack{
+	width: 158px;
+	height: 44px;
+}
+.stack{
+	width: 11%;
+	border: 1px solid red;
+	float: left;
+	padding-left: 130px;
+	background-color: #f0f3f5;
+}
+.about{
+	width: 3%;
+	border: 1px solid red;
+	float: left;
+	padding-top: 20px;
+	color: grey;
+}
+.products{
+	width: 5%;
+	border: 1px solid red;
+	float: left;
+	padding-top: 20px;
+	padding-left: 20px;
+	color: grey;
+}
+.teams{
+	width: 6%;
+	border: 1px solid red;
+	float: left;
+	padding-top: 20px;
+	padding-left: 16px;
+	color: grey;
+}
+.search{
+	width: 42%;
+	border: 1px solid red;
+	float: left;
+	padding-top: 2px;
+	padding-left: 20px;
+}
+.searchbar{
+	width: 90%;
+	height: 31px;
+	margin: 4px;
+	padding-left: 24px;
+}
+
+.fa-magnifying-glass{
+	padding-left: 0px;	
+}
+.login{
+	width: 4%;
+	border: 1px solid red;
+	float: left;
+	padding-top: 8px;
+	padding-left: 36px;
+	
+}
+.log{
+	padding: 6px 6px;
+}
+.sign{
+	background-color: #62a2f5;
+	color: white;
+	width: 62px;
+	height: 34px;	
+}
+.signup{
+	width: 4%;
+	border: 1px solid red;
+	float: left;
+	padding-top: 7px;
+	margin-left: 3px;
+}
+.clear{
+	clear: both;
+}
+.imgstack{
+	width: 150px;
+}
+.left{
+	width: 15%;
+	padding-left: 40px;
+	float: left;
+	border-right: 8px solid #9eada2;
+}
+.clear1{
+	clear:both;
+}
+.home{
+	padding-left: 93px;
+	padding-top: 27px;
+	cursor: pointer;
+	font-size: 13px;
+}
+.public{
+	padding-left: 93px;
+	padding-top: 27px;
+	cursor: pointer;
+	font-size: 11px;
+}
+.question{
+	padding-top: 16px;
+    	padding-left: 92px;
+	cursor: pointer;	
+	font-size: 13px;
+}
+.fa-earth-americas{
+	font-size: 15px;
+}
+.tags{
+	padding-left: 113px;
+    	padding-top: 17px;
+	cursor: pointer;
+	font-size: 13px;
+}
+.users{
+	cursor: pointer;
+	padding-top: 18px;
+	background-color: #f0f3f5;
+	font-size: 13px;
+    	font-weight: bold;
+	border-right: 3px solid #f48225;
+	color: black;
+	padding: 9px;
+   	padding-left: 113px;
+}
+.collectives{
+	cursor: pointer;
+	padding-left: 91px;
+    	padding-top: 17px;
+    	font-size: 11px;
+}
+.fa-circle-exclamation{
+	padding-left: 39px;
+}
+.explore{
+	cursor: pointer;
+	padding-left: 90px;
+        padding-top: 19px;
+        font-size: 13px;
+}
+.job{
+	cursor: pointer;
+	padding-left: 91px;
+        padding-top: 25px;
+        font-size: 12px;
+}
+.jobs{
+	cursor: pointer;
+	padding-left: 120px;
+    	padding-top: 13px;
+}
+.company{
+	cursor: pointer;
+	padding-left: 120px;
+    	padding-top: 14px;
+	font-size: 13px;
+}
+.teams1{
+	cursor: pointer;
+	padding-left: 87px;
+  	padding-top: 17px;
+    	font-size: 12px;
+}
+.below-team {
+    font-size: 11px;
+    padding-left: 22px;
+}	
+.content{
+	width: 128px;
+    	padding: 50px;
+   	margin: 18px;
+	margin-top: 0px;
+    	font-size: 13px;
+    	margin-left: 77px;
+    	padding: 7px;
+	border: 1px solid #d5d5d5;
+}
+.right{
+	width: 81%;
+	border-right: 1px solid red;
+	float: left;
+}
+.man-img{
+	padding-left: 25px;
+    	padding-top: 19px;
+}
+.imagenew{
+	border-radius: 6px;
+}
+.member{
+	float: left;
+}
+.twiter{
+	float: left;
+}
+.git{
+	float: left;
+}
+.location{
+	float: left;
+}
+.clear2{
+	clear: both;
+}
+.man-img{
+	float: left;
+}
+.bold{
+	font-weight: bold;
+}
+.picture{
+	padding: 3px;
+	width: 110px;
+}
+.freeone {
+    font-size: 11px;
+	font-size: 11px;
+    padding: 6px;
+	background-color:#0589f5;
+	border: none;
+}
+.freetwo{
+	padding: 6px;
+	margin-left: 5px;
+	background-color:#0589f5;
+}
+.free{
+	margin-top: 8px;
+	background-color:#0589f5;
+	border-radius: 4px;
+    	border-top-left-radius: 4px;
+    	border-bottom-left-radius: 4px;
+}
+.name{
+	margin-top: 23px;
+    font-size: 34px;
+}
+button.profile {
+   border-radius: 69px;
+    padding: 4px 8px;
+    color: white;
+    background-color: #f48225;
+    border: none;
+}
+.activity {
+    padding-left: 11px;
+    padding-top: 7px;
+    font-size: 13px;
+}
+.left1{
+	float: left;
+}
+.clear3{
+	clear:both;
+}
+.total{
+	width: 172px;
+    	margin: 18px;
+    	margin-top: 0px;
+    	font-size: 13px;
+    	margin-left: 26px;
+    	padding: 13px;
+    	border: 1px solid #d5d5d5;
+	border-radius: 6px;
+	padding-right: 63px;
+}
+.arrowprofile {
+	background-color: white;
+    	margin-left: 571px;
+    	padding: 7px;
+	margin-right: 162px;
+
+}
+.buttonprofile {
+    	float: right;
+}
+.clear4{
+	clear:both
+}
+.totalleft{
+	float:left;
+}
+.totalright{
+	float:right;
+}
+.clear4{
+	clear: both
+}
+.stats {
+    	font-size: 17px;
+}
+.number {
+    	margin-top: 17px;
+    	font-size: 17px;
+}
+.newnumber {
+    	font-size: 17px;
+}
+.nine{
+	margin-top: 17px;
+}
+.fa-trophy {
+    margin-top: 17px;
+    font-size: 17px;
+}
+.numbold{
+	font-weight: bold;
+}
+h3 {
+    margin-left: 25px;
+}
+.clear5{
+	clear: both
+}
+.Communitiesall{
+	width: 218px;
+    	margin: 18px;
+    	margin-top: 0px;
+    	font-size: 13px;
+    	margin-left: 26px;
+    	padding: 13px;
+    	border: 1px solid #d5d5d5;
+	border-radius: 6px;
+	cursor:pointer;
+	padding-right: 23px;
+    	height: 140px;
+}
+}
+.smallimg{
+}
+.Communitiesall-left{
+	float: left;
+}
+.Communitiesall-right{
+	float: left;
+}
+.clearpath{
+	clear:both;
+}
+.fivty {
+   	padding-top: 12px;
+}
+.six {
+   	padding-top: 7px;
+}
+.one {
+   	padding-top: 11px;
+}
+.onefour {
+   	padding-top: 9px;
+}
+ul{
+	list-style-type: disc;
+}
+.abouttotal{
+	float:left;
+}
+.totaltotal{
+	float:left;
+}
+.badges1{
+	width: 172px;
+    	margin: 18px;
+    	margin-top: 0px;
+    	font-size: 13px;
+    	margin-left: 26px;
+    	padding: 13px;
+    	border: 1px solid #d5d5d5;
+	border-radius: 6px;
+	padding-right: 63px;
+	float: left;
+}
+.badges2{
+	width: 172px;
+    	margin: 18px;
+    	margin-top: 0px;
+    	font-size: 13px;
+    	margin-left: 26px;
+    	padding: 13px;
+    	border: 1px solid #d5d5d5;
+	border-radius: 6px;
+	padding-right: 63px;
+	float: left;
+}
+.badges3{
+	width: 172px;
+    	margin: 18px;
+    	margin-top: 0px;
+    	font-size: 13px;
+    	margin-left: 26px;
+    	padding: 13px;
+    	border: 1px solid #d5d5d5;
+	border-radius: 6px;
+	padding-right: 63px;
+	float: left;
+}
+.june{
+	padding-left: 12px;
+}
+.clear0{
+	clear: both;
+}
+.toptag{
+	width: 746px;
+    	margin: 18px;
+    	margin-top: 0px;
+    	font-size: 13px;
+    	margin-left: 26px;
+    	padding: 13px;
+    	border: 1px solid #d5d5d5;
+	border-radius: 6px;
+	padding-right: 63px;
+}
+.numberall7 {
+    padding-left: 432px;
+}
