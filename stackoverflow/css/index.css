@@ -64,7 +64,6 @@ body{
     height: 31px;
     margin: 4px;
     padding-left: 34px;
-    background-image: url("../image/searchpicture2.png");
     background-position: 1% 50%;
     background-repeat: no-repeat;
 }
@@ -82,9 +81,9 @@ body{
     margin-left: 45px;
 }
 .angular {
-        float: left;
-        background-color: #e1ecf4;
-        border: none;
+    float: left;
+    background-color: #e1ecf4;
+    border: none;
     }
 
 .clearjune{
@@ -130,8 +129,6 @@ body{
     width: 15%;
     padding-left: 40px;
     float: left;
-    border-right: 8px solid #9eada2;
-	 
 }
 .clear1{
     clear:both;
@@ -232,6 +229,7 @@ body{
 .right{
     width: 81%;
     float: left;
+    border-left: 8px solid #9eada2;
 }
 .man-img{
     padding-left: 25px;
@@ -320,6 +318,7 @@ button.profile {
 }
 .left1{
     float: left;
+    
 }
 .clear3{
     clear:both;
@@ -381,6 +380,15 @@ h3 {
 .clear5{
     clear: both;
 }
+img.goldsnip {
+    width: 35%;
+}
+img.silvsnip {
+    width: 34%;
+}
+img.snipbronz {
+    width: 35%;
+}
 .Communitiesall{
     width: 218px;
     margin: 18px;
@@ -392,38 +400,46 @@ h3 {
     border-radius: 6px;
     cursor:pointer;
     padding-right: 23px;
-    height: 140px;
+    height: 125px;
 }
 .stats1 {
     margin-left: 27px;
     font-size: 20px;
     color: black;
 }
-
-
 .Communitiesall-left{
     float: left;
     color: blue;
 }
 .Communitiesall-right{
     float: left;
+    padding-left: 11px;
 }
 .clearpath{
     clear:both;
 }
 .fivty {
-    padding-top: 12px;
+    padding-top: 0px;
 }
 .six {
     padding-top: 7px;
 }
 .one {
-    padding-top: 11px;
+    padding-top: 5px;
 }
+
 .onefour {
     padding-top: 9px;
-    font-size: 12px;
-    color: gray;
+    font-size: 20px;
+    color: black;
+    
+}
+button.pipe {
+    background-color: #e1ecf4;
+    border: none;
+}
+.google {
+    margin-top: 7px;
 }
 ul{
     list-style-type: disc;
@@ -441,10 +457,9 @@ ul{
     margin-top: 12px;
 }
 .badges {
-    margin-top: 109px;
+    margin-top: 77px;
 }
 .badges1{
-   
     margin: 18px;
     margin-top: 25px;
     font-size: 13px;
@@ -466,6 +481,18 @@ ul{
 .bronze {
     margin-left: 40px;
     color: black;
+}
+.onefour44 {
+    padding: 4px;
+}
+.super {
+    padding-top: 7px;
+}
+.meta {
+    padding-top: 8px;
+}
+.finance {
+    padding-top: 2px;
 }
 .badges2{
     width: 176px;
@@ -533,22 +560,31 @@ span.Top {
     margin-left: 675px;
 }
 .numberall5 {
-    padding-left: 430px;
+    padding-left: 462px;
+}
+.numberall88 {
+    padding-left: 451px;
 }
 .numberall8 {
-    padding-left: 430px;
+    margin-left: 480px;
 }
 .numberall12 {
-    padding-left: 430px;
+    margin-left: 430px;
 }
 .numberall22 {
-    padding-left: 430px;
+    margin-left: 430px;
 }
 .numberall33{
-    padding-left: 430px;
+    margin-left: 430px;
 }
 .numberall44 {
-    padding-left: 430px;
+    margin-left: 430px;
+}
+.numberall55 {
+    margin-left: 475px;
+}
+.numberall86 {
+    margin-left: 472px;
 }
 .size {
     font-size: 20px;
@@ -562,7 +598,6 @@ span.Top {
     color: black;
 }  
 .view{
-    
     font-size: 13px;
 }
 .table1{
@@ -579,7 +614,6 @@ span.Top {
 }
 .newtag{
    border: 2px solid whitesmoke;
-   
    margin-top: 8px;
 }
 .ang2{
@@ -589,7 +623,7 @@ span.Top {
     margin-left: 6px;
 }
 .fa-circle{
-  margin-left: 10px;
+    margin-left: 10px;
 }
 .newbutton{
 	margin: 15px 5px;
@@ -620,7 +654,27 @@ span.Top {
     margin-left:400px;
     text-align:right;
     width: 40%;
+    
 }
+button.read {
+    margin-left: 346px;
+    margin-top: 0px;
+    font-size: 10px;
+    background-color: white;
+    padding: 4px;
+    border-radius: 4px;
+    color: grey;
+    border-color:#9ca3ab;
+}
+.number {
+    margin-top: 19px;
+    font-size: 13px;
+    margin-left: 7px;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 3px 7px;
+}
+
 .right-clear {
     clear:both;
 }
@@ -692,13 +746,11 @@ span.Top {
 }
 
 .all {
-       
-        border: 1px solid black;
-        padding: 3px;
-        border-radius: 3px;
-        border-color: grey;
-        font-size: 13px;
-    
+      border: 1px solid black;
+      padding: 3px;
+      border-radius: 3px;
+      border-color: grey;
+      font-size: 13px;
 }
 #a1,#a2{
     background-color: rgb(174, 174, 199);
@@ -710,11 +762,9 @@ span.Top {
     font-size: 20px;
     color: black;
 }
-
 .Badgesnew {
         font-size: 20px;
         color: black;
-    }
 }
 .answer {
     float:right;
@@ -826,15 +876,12 @@ table,td{
     margin-top:40px;
     border:1px solid #d9dbdb;
     border-radius:5px;
-   
 }
 .top1 {
     font-size: 20px;
     color: black;
     margin-top: 18px;
 }
-
-
 .top-layer  i{
     color:#69b579;
     font-size:13px;
@@ -874,7 +921,6 @@ table,td{
     margin-top:0px;
     border:1px solid #d9dbdb;
     border-radius:5px;
-    
 }
 .dart {
     background-color: #e1ecf4;
@@ -885,8 +931,11 @@ table,td{
     color:gray;
 }
 .two-digit{
-    padding:4px 13px;  
+    padding: 3px 7px;
+    border: 1px solid black;
+    border-radius: 3px;
 }
+
 .top-meta-details{
     color:#418ee0;
     font-size:15px;
@@ -902,7 +951,6 @@ table,td{
 }   
 footer{
     padding:15px;
-    width:100%;
     display:flex;
     color:#787773;
     background-color: rgb(38, 41, 44);    
